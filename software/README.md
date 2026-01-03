@@ -10,19 +10,19 @@ We trained a custom YOLO model to identify 3 specific classes of objects. Below 
 
 This chart shows where the model is strongest.
 
-![Confusion Matrix](../images/confusion_matrix.png)
+![Confusion Matrix](../docs/confusion_matrix.png)
 
 ### 2. Results
 
 These graphs show progress.
 
-![Performance](../images/results.png)
+![Performance](../docs/results.png)
 
 ### 3. Samples
 
 Here is what the AI sees:
 
-![Batch Sample](../images/train_batch0.jpg)
+![Batch Sample](../docs/train_batch0.jpg)
 
 
 ## Folders

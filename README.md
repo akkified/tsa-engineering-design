@@ -23,7 +23,7 @@
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 * **/software**: All project firmware and logic
     * **/rpi**: Python based logic and AI models
@@ -31,3 +31,4 @@
 * **/cad**: `.STEP` assembly file and components
 * **/docs**: Images, wiring diagrams, results, and journal
 * **BOM.csv**: Bill of Materials with links.
+
