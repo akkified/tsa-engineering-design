@@ -1,0 +1,6 @@
+train: /Users/akki/lab-items/images/train
+val: /Users/akki/lab-items/images/val
+test: /Users/akki/lab-items/images/test
+
+nc: 3
+names: ['test-tube', 'beaker', 'erlenmeyer-flask']
