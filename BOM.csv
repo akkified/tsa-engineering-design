@@ -2,12 +2,3 @@ Item,Description,Quantity,Link
 Raspberry Pi 5,8GB RAM AI Controller,1,https://www.raspberrypi.com/products/raspberry-pi-5/
 Arduino Mega,Motor Interface,1,https://store.arduino.cc/products/arduino-mega-2560-rev3
 NEMA 17 Stepper,Actuators,5,https://www.adafruit.com/product/324
-TMC2209 Driver,Silent Stepper Drivers,5,https://www.google.com/search?q=https://www.bigtreetech.com
-VL53L0X ToF,Laser Distance Sensor,1,https://www.adafruit.com/product/3317
-FSR 402,Force Sensor for Gripper,1,https://www.adafruit.com/product/166
-2020 Extrusion,500mm Linear Gantry Rail,1,https://www.google.com/search?q=https://www.amazon.com/2020-extrusion
-Switching Power Supply,24V 10A DC Power,1,https://www.google.com/search?q=https://www.amazon.com/24V-power-supply
-Buck Converter,24V to 5V Step Down,1,https://www.google.com/search?q=https://www.amazon.com/buck-converter
-Pi Camera Module 3,Vision Sensor for YOLO,1,https://www.raspberrypi.com/products/camera-module-3/
-GT2 Timing Belt,Gantry Motion,1,https://www.google.com/search?q=https://www.amazon.com/gt2-belt
-Limit Switch,Homing/Endstops,5,https://www.google.com/search?q=https://www.amazon.com/limit-switch
