@@ -24,7 +24,7 @@ def update_readme(readme_path, table_content):
         upper_part = content.split(start_marker)[0]
         try:
             lower_part = content.split(end_marker)[1]
-            new_content = f"{upper_part}{start_marker}\n\n{table_content}\n\n*(For a full list{lower_part}"
+            new_content = f"{upper_part}{start_marker}\n\n{table_content}\n\n*update_bom.py is a script{lower_part}"
             
             with open(readme_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
