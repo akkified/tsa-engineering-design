@@ -2,7 +2,9 @@
 
 ## A customizable, low cost robotic arm created to serve as an educational and lab-based assistant using AI based processing to understand and operate in its environment
 
-## Why we Made This
+## What It Is
+
+## Why We Made This
 
    We designed this robotic arm to fill a major gap that we observed in educational and laboratory environments. Most advanced tools that assist with automating procedures are extremely expensive and proprietary, which makes  them inaccessible to students and researchers who work in small scale labs who need the most help from this technology. Though the industrial level robotic arms are relatively common in well funded labs and non-educational environments. The high cost and closed ecosystems make this technology inaccessible to classrooms that can use this as an educational tool, community labs, and underfunded research labs. <br><br>
    In many labs, repetitive tasks like pipetting, sample transfers, positioning of instruments, and handling hazardous materials are handled manually by the researchers. This seriously limits the possible efficiency of the lab and decreases the possibility of fatigue, human error, and possible safety hazards. The current commercial systems that are capable of automating these tasks cost tens of thousands of dollars and need specialized maintenance because of their closed off design, which makes them really unrealistic for small scale labs and most schools. <br><br>
