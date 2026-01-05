@@ -1,0 +1,30 @@
+name: Update BOM in README
+
+on:
+  push:
+    paths:
+      - 'BOM.csv'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/checkout@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run BOM Update Script
+        run: python update_bom.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "docs: auto-update BOM table in README" || echo "No changes to commit"
+          git push
