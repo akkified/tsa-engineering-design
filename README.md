@@ -31,7 +31,7 @@
 | Raspberry Pi 5 | 8GB RAM AI Controller | 1 | [Link](https://www.raspberrypi.com/products/raspberry-pi-5/) |
 | Arduino Mega | Motor Interface | 1 | [Link](https://store.arduino.cc/products/arduino-mega-2560-rev3) |
 | NEMA 17 Stepper | Actuators | 5 | [Link](https://www.adafruit.com/product/324) |
-| TMC2209 Driver | Silent Stepper Drivers | 5 | [Link](https://www.google.com/search?q=https://www.bigtreetech.com) |
+| L298N Motor Driver | Silent Stepper Drivers | 5 | [Link](https://www.amazon.com/gp/product/B07BK1QL5T/?AssociateTag=sacsite-20&tag=sacsite-20) |
 
 
 *update_bom.py is a script
