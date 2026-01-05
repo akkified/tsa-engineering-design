@@ -4,16 +4,10 @@
 
 ## Why we Made This
 
-## Components
-- **Computer Vision:** YOLOv11 model tuned with lab equipment datasets using `ultralytics`
-- **Hardware:** Blah
-- **Control:** Python on Pi 5 paired with C++ on Arduino Mega
-
-
-## Gallery
+## Images
 
 ### 3D CAD Model
-![Full 3D Model Render](docs/3d_render.png)
+![Render](docs/slc_render.png)
 *Full assembly*
 
 ### AI Performance (Vision)
