@@ -3,18 +3,21 @@ name: Update BOM in README
 on:
   push:
     paths:
-      - 'BOM.csv'
-  workflow_dispatch:
+      - 'BOM.csv'  # Only run when BOM.csv is changed
+  workflow_dispatch: # Allows you to run it manually from the Actions tab
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    # Added permissions block to allow the bot to commit and push changes
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/checkout@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
