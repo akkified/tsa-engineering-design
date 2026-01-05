@@ -15,7 +15,7 @@
 *Confusion matrix from the YOLOv11 training*
 
 
-## [Bill of Materials] (/BOM.csv)
+## [Bill of Materials](/BOM.csv)
 
 | Item | Description | Quantity | Link |
 | :--- | :--- | :--- | :--- |
