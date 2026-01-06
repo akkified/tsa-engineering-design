@@ -1,7 +1,5 @@
 # AI Powered Robotic Arm Lab Assistant
 
-## A customizable, low cost robotic arm created to serve as an educational and lab-based assistant using AI based processing to understand and operate in its environment
-
 ## What It Is
 
 Solution 3 proposes a low-cost, highly accessible lab robotic arm intended for use by students, educators, and small scale labs around the world. This design addresses the lack of access to advanced laboratory automation technologies in underfunded educational and research environments. By implementing additive manufacturing through 3D printing, open source electronics, and wide range mobility, the platform serves as a flexible, modular, and easily accessible laboratory assistant suitable for both instructional and research applications. <br><br>
