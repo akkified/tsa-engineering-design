@@ -36,10 +36,71 @@ The robotic arm was designed with a strong emphasis on its mechanical simplicity
 
 | Item | Description | Quantity | Link |
 | :--- | :--- | :--- | :--- |
-| Raspberry Pi 5 | 8GB RAM AI Controller | 1 | [Link](https://www.raspberrypi.com/products/raspberry-pi-5/) |
-| Arduino Mega | Motor Interface | 1 | [Link](https://store.arduino.cc/products/arduino-mega-2560-rev3) |
-| NEMA 17 Stepper | Actuators | 5 | [Link](https://www.adafruit.com/product/324) |
-| L298N Motor Driver | Silent Stepper Drivers | 5 | [Link](https://www.amazon.com/gp/product/B07BK1QL5T/?AssociateTag=sacsite-20&tag=sacsite-20) |
+| Gantry Cart Plate | 1/4in Aluminum Plate | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Gantry Side Plate | 1/8in Aluminum Plate | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Gantry Side Plate 2 | 1/8in Aluminum Plate | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Bottom Belt Clamp | PETG 3D Printed Part | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Top Gantry Clamp | PETG 3D Printed Part | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Gantry Drive Block | PETG 3D Printed Part | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Idler Drive Block | PETG 3D Printed Part | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Stepper Drive Shaft | PA 3D Printed Shaft | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Sideplate Support Block | PETG 3D Printed Part | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Idler Pulley Shaft | PA 3D Printed Shaft | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Gantry Motor Plate | PETG 3D Printed Plate | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Top Idler Shaft | PA 3D Printed Shaft | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Bearing Clamp Block | PETG 3D Printed Part | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Turret Mega Gear | 1/4in Aluminum Gear | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Turret Top Face Plate | PA 3D Printed Plate | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Turret Stepper Spur Gear | PA 3D Printed Gear | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| 16T HTD Pulley | PETG Pulley | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| 12T HTD Pulley | PETG Pulley | 2 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| V-Slot 20x20x500 Rail | Aluminum Extrusion Rail | 2 | [Link](https://www.amazon.com/dp/B0DY7HTF64) |
+| HTD 5M Timing Belt | 250T 9mm Wide Belt | 1 | [Link](https://wcproducts.com/products/htd-timing-belts-9mm-width) |
+| NEMA 17 Stepper Motor | 14:1 Planetary Gearbox | 6 | [Link](https://www.amazon.com/dp/B00QA8XUGC) |
+| 80x100x10 Ball Bearing | Sealed Ball Bearing | 1 | [Link](https://www.amazon.com/dp/B07RQ4RXDR) |
+| Cam Shaft Cap | PPA-CF Printed Part | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Cam Shaft Upper | PPA-CF Printed Part | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Cam Shaft Lower | PPA-CF Printed Part | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| ThunderHex Bearing | 0.5in ID 1.25in OD Bearing | 4 | [Link](https://wcproducts.com/products/wcp-0778) |
+| 12x18x4mm Bearing | Ball Bearing | 16 | [Link](https://www.amazon.com/dp/B082PQ8DC2) |
+| Cycloidal Output Shaft | PPA-CF Shaft | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Cycloidal Backplate | PLA Pro Plate | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| M5 x 60mm Cap Screws | Socket Head Screws | 36 | [Link](https://www.amazon.com/dp/B08S6RTY4N) |
+| Cycloidal Housing | PLA Pro Housing | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Cycloidal Disk | PPA-CF Disk | 8 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Needle Roller Bearing | 5mm Bore 9mm OD Bearing | 72 | [Link](https://www.amazon.com/dp/B07GC7LWPK) |
+| Cap Plate | PLA Pro Plate | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| 30x37x4mm Ball Bearing | Thin Ball Bearing | 8 | [Link](https://www.amazon.com/dp/B082PSJR52) |
+| 4mm M5 Spacer | PETG Spacer | 108 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Hex Bore Adapter | 1/2in Hex Adapter | 4 | [Link](https://wcproducts.com/products/wcp-1121) |
+| Base Arm Segment | PETG Arm Segment | 3 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Arm Segment Cap Plate | PETG Plate | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Gripper Mount Arm Segment | PETG Arm Segment | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Turret Mounted Arm Segment | PETG Arm Segment | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| 29T Spur Gear | Non-Powered Gear | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| 29T Spur Gear | Motor Side Gear | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Claw Cap Plate | PETG Plate | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Servo Mount | PETG Mount | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Claw Secondary Bar | PETG Bar | 2 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Claw | TPU Flexible Gripper | 2 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Gripper Base | PETG Base | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| ArduCAM Insert | PETG Camera Insert | 1 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| VL53L0X Distance Sensor | Time-of-Flight Sensor | 1 | [Link](https://www.amazon.com/dp/B0B6ZT7NRW) |
+| ArduCAM IMX477 | High-Res Camera Module | 1 | [Link](https://www.amazon.com/dp/B09VSVB4DT) |
+| 30kg Servo | High Torque Servo Motor | 2 | [Link](https://www.amazon.com/dp/B0CNZSWM3T) |
+| L298N Motor Driver | Dual H-Bridge Driver | 5 | [Link](https://www.amazon.com/dp/B07BK1QL5T) |
+| ATX Power Supply | 650W PSU | 1 | [Link](https://www.amazon.com/dp/B0991TZ399) |
+| 40mm Fan | Noctua NF-A4x10 | 1 | [Link](https://www.amazon.com/dp/B009NQLT0M) |
+| Buck Converter | 12V to 9V 10A Converter | 1 | [Link](https://www.amazon.com/dp/B0CSPVGHVP) |
+| WAGO Lever Nuts | 221 Series Connectors | 24 | [Link](https://www.amazon.com/dp/B0CJ5QF3VX) |
+| 16AWG Wire | 2-Conductor Electrical Wire | 1 | [Link](https://www.amazon.com/dp/B0CN76YTVK) |
+| 14AWG Wire | 2-Conductor Electrical Wire | 1 | [Link](https://www.amazon.com/dp/B0CN75D5R4) |
+| 20AWG Wire | 2-Conductor Electrical Wire | 1 | [Link](https://www.amazon.com/dp/B0CN75RX9W) |
+| Power Distribution Board | 2-In 12-Out PDB | 1 | [Link](https://www.amazon.com/dp/B08LCSR3LS) |
+| ATX Breakout Board | 24/20-Pin PSU Breakout | 1 | [Link](https://www.amazon.com/dp/B08MC389FQ) |
+| CAN Bus Shield | Seeed Studio CAN Shield V2 | 1 | [Link](https://www.amazon.com/dp/B076DSQFXH) |
+| Arduino Mega 2560 | Main Microcontroller | 1 | [Link](https://store.arduino.cc/products/arduino-mega-2560-rev3) |
+| Raspberry Pi 5 | 16GB RAM SBC | 1 | [Link](https://www.amazon.com/dp/B0F6K1X38W) |
 
 
 *update_bom.py is a script
