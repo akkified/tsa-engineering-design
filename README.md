@@ -26,8 +26,8 @@ The robotic arm was designed with a strong emphasis on its mechanical simplicity
 *Full assembly*
 
 ### Wiring Diagram
-![Render](docs/TemporarySchematic)
-*Full assembly*
+![Render](docs/TemporarySchematic) <br>
+*Wiring Sketch*
 
 ### AI Performance (Vision)
 ![Confusion Matrix](docs/confusion_matrix.png)
