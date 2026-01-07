@@ -35,4 +35,4 @@ Runs on RPI 5
 
 ### [/arduino](./arduino)
 Runs on the Arduino Mega
-* `motor_control.ino`: Firmware that uses the `AccelStepper` library to move 5 motors at once without freezing
+* `motor_control.ino`: Firmware that uses the `AccelStepper` library to move 5 motors at once without freezing, motor ports will be finalized after build
