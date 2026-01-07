@@ -28,7 +28,7 @@ The robotic arm was designed with a strong emphasis on its mechanical simplicity
 ![Render](docs/CycloidalDrive)
 *Cycloidal Drive*
 
-![Render](docs/Turret+arm)
+![Render](docs/StationaryArm)
 *Stationary Model*
 
 ### AI Performance (Vision)
