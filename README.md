@@ -25,6 +25,10 @@ The robotic arm was designed with a strong emphasis on its mechanical simplicity
 ![Render](docs/slc_render.png)
 *Full assembly*
 
+### 3D CAD Model
+![Render](docs/TemporarySchematic)
+*Full assembly*
+
 ### AI Performance (Vision)
 ![Confusion Matrix](docs/confusion_matrix.png)
 *Confusion matrix from the YOLOv11 training*
