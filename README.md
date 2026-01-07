@@ -25,7 +25,7 @@ The robotic arm was designed with a strong emphasis on its mechanical simplicity
 ![Render](docs/slc_render.png)
 *Full assembly*
 
-### 3D CAD Model
+### Wiring Diagram
 ![Render](docs/TemporarySchematic)
 *Full assembly*
 
