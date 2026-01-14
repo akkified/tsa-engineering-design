@@ -70,7 +70,8 @@ The robotic arm was designed with a strong emphasis on its mechanical simplicity
 | M5 x 60mm Cap Screws | Socket Head Screws | 36 | [Link](https://www.amazon.com/dp/B08S6RTY4N) |
 | M2 x 25mm Cap Screws | Socket Head Screws | 8 | [Link](https://www.amazon.com/gp/product/B01AXVSC46/ref=ox_sc_act_title_1?smid=A1THAZDOWP300U&th=1) |
 | Cycloidal Housing | PLA Pro Housing | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
-| Cycloidal Disk | PPA-CF Disk | 8 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Cycloidal Disk | PPA-CF Disk | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
+| Cycloidal Disk out of phase | PPA-CF Disk | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
 | Needle Roller Bearing | 5mm Bore 9mm OD Bearing | 72 | [Link](https://www.amazon.com/dp/B07GC7LWPK) |
 | Cap Plate | PLA Pro Plate | 4 | [Link](https://cad.onshape.com/documents/f3370c452f54d75f3c4d6ebc) |
 | 30x37x4mm Ball Bearing | Thin Ball Bearing | 8 | [Link](https://www.amazon.com/dp/B082PSJR52) |
