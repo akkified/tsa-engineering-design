@@ -17,22 +17,45 @@ The robotic arm was designed with a strong emphasis on its mechanical simplicity
    We chose to make this project fully open source with minimal protections (Reference MIT Licence, txt and CERN Open Hardware Licence Version - Permissive.txt) because we believe that the development  and usage of this technology should not be limited by proprietary constraints like the majority of mainstream robotics technologies. By releasing all of the CAD files, schematics, and software that we have, we hope that the users of this repository will understand the system itself, repair it on their own, and adapt or even improve on our work. We hope that this approach will encourage learning robotics through doing and designing independently. We would love for the global community on GitHub to improve the design over time by creating new end effectors, tools, control strategies, and AI implementations. <br><br>
    Overall, this robotic arm was designed to spread lab automation. It was created to not just be a tool for innovation but also a platform for developing independent work. We hope that our contribution and efforts here will support education, research, and lab automation by making advanced robotic technologies significantly more affordable and customizable to anyone in the community willing to learn and build this technology further.<br>
 
+## CAD Viewer
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model- viewer.min.js"></script>
+
+<!-- <model-viewer 
+  src="https://akkified.github.io/tsa-engineering-design/cad/model.glb" 
+  alt="Interactive CAD model" 
+  auto-rotate 
+  camera-controls 
+  ar 
+  style="width: 100%; height: 400px;">
+</model-viewer> -->
 
 
 ## Images
 
 ### 3D CAD Model
 ![Render](docs/slc_render.png)
-*Full assembly*
+![Robot Arm Gantry View](docs/Robot_Arm+Gantry_View.png)
+![Turret CAD View](docs/Turrent_CAD_View.png)
+![Turret Electrical Box View](docs/Turret+Electrical_Box_View.png)
 
 ### Wiring Diagram
-![Render](docs/TemporarySchematic) <br>
-*Wiring Sketch*
+![Render](docs/TemporarySchematic)
 
 ### AI Performance (Vision)
 ![Confusion Matrix](docs/confusion_matrix.png)
-*Confusion matrix from the YOLOv11 training*
 
+### Cycloidal
+![Complete Cycloidal](docs/Cycloidal_Complete.png)
+![Exploded Cycloidal View](docs/Cycloidal_Exploded_View.png)
+![Cycloidal Internal Top View](docs/Cycloidal_Internal_Top_View.png)
+![Cycloidal Section View](docs/Cycloidal_Section_View.png)
+![Cycloidal Side View](docs/Cycloidal_Side_View.png)
+![Final Robot Arm Gantry Electrical](docs/Final_Robot_Arm+Gantry+Electrical.png)
+![Gripper Mechanism](docs/Gripper_Mechanism.png)
+
+### Gripper
+![Gripper Mechanism](docs/Gripper_Mechanism.png)
 
 ## Bill of Materials
 
