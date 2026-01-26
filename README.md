@@ -40,7 +40,7 @@ The robotic arm was designed with a strong emphasis on its mechanical simplicity
 ![Turret Electrical Box View](docs/Turret+Electrical_Box_View.png)
 
 ### Wiring Diagram
-![Render](docs/TemporarySchematic)
+![Render](docs/Schematic_Wiring.png)
 
 ### AI Performance (Vision)
 ![Confusion Matrix](docs/confusion_matrix.png)
