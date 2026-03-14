@@ -1,67 +1,77 @@
-#include <AccelStepper.h>
+#include <SPI.h>
+#include <mcp2515_can.h>
 
-#define BASE_STEP_PIN 4
-#define BASE_DIR_PIN  5
+const int SPI_CS_PIN = 9;
+mcp2515_can CAN(SPI_CS_PIN);
 
-#define SHOULDER_STEP_PIN 6
-#define SHOULDER_DIR_PIN  7
-
-#define ELBOW_STEP_PIN 8
-#define ELBOW_DIR_PIN  9
-
-#define WRIST_STEP_PIN 10
-#define WRIST_DIR_PIN  11
-
-AccelStepper baseMotor(1, BASE_STEP_PIN, BASE_DIR_PIN);
-AccelStepper shoulderMotor(1, SHOULDER_STEP_PIN, SHOULDER_DIR_PIN);
-AccelStepper elbowMotor(1, ELBOW_STEP_PIN, ELBOW_DIR_PIN);
-AccelStepper wristMotor(1, WRIST_STEP_PIN, WRIST_DIR_PIN);
+// Motor CAN IDs
+#define MOTOR_1_ID 0x100
+#define MOTOR_2_ID 0x101
+#define MOTOR_3_ID 0x102
+#define ALL_MOTORS_ID 0x1FF  // Broadcast to all
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
+  while (!Serial);
   
-  baseMotor.setMaxSpeed(800);
-  baseMotor.setAcceleration(400);
+  while (CAN_OK != CAN.begin(CAN_500KBPS)) {
+    Serial.println("CAN init failed, retrying...");
+    delay(100);
+  }
   
-  shoulderMotor.setMaxSpeed(800);
-  shoulderMotor.setAcceleration(400);
+  Serial.println("CAN Motor Controller Ready");
+  Serial.println("Commands:");
+  Serial.println("  1 - Motor 1 quarter turn");
+  Serial.println("  2 - Motor 2 quarter turn");
+  Serial.println("  3 - Motor 3 quarter turn");
+  Serial.println("  a - ALL motors quarter turn");
+  Serial.println("  r - Reverse all motors");
+}
+
+void sendMotorCommand(unsigned long canId, long steps, byte direction) {
+  unsigned char data[5];
   
-  elbowMotor.setMaxSpeed(800);
-  elbowMotor.setAcceleration(400);
+  data[0] = steps & 0xFF;
+  data[1] = (steps >> 8) & 0xFF;
+  data[2] = (steps >> 16) & 0xFF;
+  data[3] = (steps >> 24) & 0xFF;
+  data[4] = direction;
   
-  wristMotor.setMaxSpeed(800);
-  wristMotor.setAcceleration(400);
+  byte result = CAN.sendMsgBuf(canId, 0, 5, data);
+  
+  if (result == CAN_OK) {
+    Serial.print("Sent to 0x");
+    Serial.print(canId, HEX);
+    Serial.print(": ");
+    Serial.print(steps);
+    Serial.println(" steps");
+  } else {
+    Serial.println("Send FAILED");
+  }
 }
 
 void loop() {
-  if (Serial.available() > 0) {
-    String command = Serial.readStringUntil('\n');
-    parseAndMove(command);
-  }
-
-  baseMotor.run();
-  shoulderMotor.run();
-  elbowMotor.run();
-  wristMotor.run();
-}
-
-void parseAndMove(String command) {
-  int values[4];
-  int startIndex = 0;
-  int commaIndex;
-
-  for (int i = 0; i < 4; i++) {
-    commaIndex = command.indexOf(',', startIndex);
-    if (commaIndex != -1) {
-      values[i] = command.substring(startIndex, commaIndex).toInt();
-      startIndex = commaIndex + 1;
-    } else {
-      values[i] = command.substring(startIndex).toInt();
+  if (Serial.available()) {
+    char cmd = Serial.read();
+    
+    long quarter_turn = 200L * 112 * 16 / 4;  // 89600 steps
+    
+    switch (cmd) {
+      case '1':
+        sendMotorCommand(MOTOR_1_ID, quarter_turn, 0);
+        break;
+      case '2':
+        sendMotorCommand(MOTOR_2_ID, quarter_turn, 0);
+        break;
+      case '3':
+        sendMotorCommand(MOTOR_3_ID, quarter_turn, 0);
+        break;
+      case 'a':
+        sendMotorCommand(ALL_MOTORS_ID, quarter_turn, 0);
+        break;
+      case 'r':
+        sendMotorCommand(ALL_MOTORS_ID, quarter_turn, 1);
+        break;
     }
   }
-
-  baseMotor.moveTo(values[0]);
-  shoulderMotor.moveTo(values[1]);
-  elbowMotor.moveTo(values[2]);
-  wristMotor.moveTo(values[3]);
 }
